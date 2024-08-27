@@ -1,6 +1,7 @@
 :root {
     --primary-color: #ffd700;
     --gray-color: #2B3033;
+    --gray-color-light: #FAFAFA;
     --black-color: rgba(0, 0, 0, 0.4);
     --white-color: #fff;
 }
@@ -170,6 +171,30 @@ border-radius: 50% 50% 50% 50% / 0% 0% 100% 100%;
 .btn:hover {
     background-color: #e0a806;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container-questions {
+    padding: 4.3rem;
+    text-align: center;
+    background-color: var(--gray-color);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    }
+
+.title {
+    font-size: 3em;
+}
+
+#txtQuestion {
+    color: var(--white-color);
+
+}
+
+.container-questions section {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 10px;
 }
 
 footer {
